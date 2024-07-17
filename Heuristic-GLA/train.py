@@ -52,8 +52,8 @@ parser.add_argument('--name', default='cifar-ours', type=str,
 parser.add_argument('--no', default='1', type=str,
                     help='index of the experiment (for recording convenience)')
 
-parser.add_argument('--nk', type=int, default=20)
-parser.add_argument('--tau1', type=float, default=1.2)
+parser.add_argument('--nk', type=int, default=40)
+parser.add_argument('--tau1', type=float, default=1.5)
 parser.add_argument('--tau2', type=float, default=1.0)
 
 parser.add_argument('--smoothalpha', type=float, default=0.05)
