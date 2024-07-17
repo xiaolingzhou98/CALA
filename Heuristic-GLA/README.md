@@ -3,7 +3,7 @@
 We propose a novel logit-adjusted loss, termed GLA, which incorporates both the class priors and the ratio of the class-conditional probability densities for the training and test data. We then leverage the information of the $K$-nearest neighbors to estimate the class-conditional probability density ratio in GLA loss, leading to a novel GLT approach called Heuristic-GLA.
 
 <p align="center">
-    <img src="HGLA.png" width= "900">
+    <img src="HGLA.jpg" width= "900">
 </p>
 
 
