@@ -18,5 +18,5 @@ A code framework that uses pytorch to implement Heuristic-GLA.
 ## Running this example
 ResNet32 on CIFAR10-LT with an imbalance factor of 10:
 ```
-python train.py --dataset cifar10 --class_num 10 --imb_factor 10 --nk 20 
+python train.py --dataset cifar10 --class_num 10 --imb_factor 10 --nk 40 --tau1 1.5 --tau2 1
 ```
