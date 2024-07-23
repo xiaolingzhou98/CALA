@@ -1,14 +1,14 @@
 
 # Introduction
-We propose a novel logit-adjusted loss, termed GLA, which incorporates both the class priors and the ratio of the class-conditional probability densities for the training and test data. We then leverage the information of the $K$-nearest neighbors to estimate the class-conditional probability density ratio in GLA loss, leading to a novel GLT approach called Heuristic-GLA.
+We propose a novel logit-adjusted loss, termed CALA, which incorporates both the class priors and the ratio of the class-conditional probability densities for the training and test data. We then leverage the information of the $K$-nearest neighbors to estimate the class-conditional probability density ratio in the CALA loss, leading to a novel GLT approach called Heuristic-CALA.
 
 <p align="center">
     <img src="HGLA.jpg" width= "900">
 </p>
 
 
-# Heuristic-GLA
-A code framework that uses pytorch to implement Heuristic-GLA.
+# Heuristic-CALA
+A code framework that uses pytorch to implement Heuristic-CALA.
 
 ## Environment
 - python 3.8
