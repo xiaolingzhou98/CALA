@@ -21,7 +21,7 @@ from torch.nn.functional import normalize
 
 
 
-parser = argparse.ArgumentParser(description='Heuristic-GLA')
+parser = argparse.ArgumentParser(description='Heuristic-CALA')
 parser.add_argument('--dataset', default='', type=str,
                     help='dataset (cifar10 [default] or cifar100)')
 parser.add_argument('--class_num', default=None, type=int,
@@ -130,7 +130,7 @@ training_configurations = {
 
 
 
-record_path = './GLA test/' + str(args.dataset) \
+record_path = './CALA test/' + str(args.dataset) \
               + '_' + str(args.model) \
               + '-' + str(args.layers) \
               + (('-' + str(args.widen_factor)) if 'wide' in args.model else '') \
