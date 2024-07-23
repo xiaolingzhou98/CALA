@@ -10,7 +10,7 @@ import torch.nn.functional as F
 from loguru import logger
 import time
 
-parser = argparse.ArgumentParser(description='Meta-GLA')
+parser = argparse.ArgumentParser(description='Meta-CALA')
 parser.add_argument('--device', type=str, default='cuda')
 parser.add_argument('--seed', type=int, default=1)
 parser.add_argument('--meta_net_hidden_size', type=int, default=200)
@@ -184,7 +184,7 @@ def compute_loss_accuracy(net, data_loader, criterion, device):
     return total_loss / (batch_idx + 1), correct / len(data_loader.dataset)
 
 
-def meta_GLA():
+def meta_CALA():
     meta_net = MLP(in_size = 42,hidden_size=args.meta_net_hidden_size, num_layers=args.meta_net_num_layers).to(device=args.device)
     time_begin = time.time()
     print("time_begin")
@@ -470,4 +470,4 @@ def meta_GLA():
 
 if __name__ == '__main__':
 
-    meta_GLA()
+    meta_CALA()
