@@ -99,8 +99,8 @@ training_configurations = {
     'resnet': {
         'epochs': 200,
         'batch_size': 128,
-        'initial_learning_rate': 0.1,
-        'changing_lr': [120, 160],
+        'initial_learning_rate': 0.01,
+        'changing_lr': [160, 180],
         'lr_decay_rate': 0.1,
         'momentum': 0.9,
         'nesterov': True,
