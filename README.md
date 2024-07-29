@@ -23,12 +23,14 @@ Please obtain the specific implementations of Heuristic-CALA and Meta-CALA from 
     <img src="CIFAR-LT-RES.jpg" width= "900">
 </p>
 
+- Image classification on subpopulation shift datasets
+<p align="center">
+    <img src="SUB-RES.jpg" width= "900">
+</p>
+
 - Image classification on ImageNet-GLT and MSCOCO-GLT
 <p align="center">
     <img src="GLT-RES.jpg" width= "900">
 </p>
 
-- Image classification on Subpopulation Shift Datasets
-<p align="center">
-    <img src="SUB-RES.jpg" width= "900">
-</p>
+
