@@ -186,8 +186,7 @@ def compute_loss_accuracy(net, data_loader, criterion, device):
 
 def meta_CALA():
     meta_net = MLP(in_size = 42,hidden_size=args.meta_net_hidden_size, num_layers=args.meta_net_num_layers).to(device=args.device)
-    time_begin = time.time()
-    print("time_begin")
+
     net = ResNet32(args.dataset == 'cifar10' and 10 or 100).to(device=args.device)
     criterion = nn.CrossEntropyLoss().to(device=args.device)
 
@@ -462,10 +461,6 @@ def meta_CALA():
             test_accuracy,
             lr,
         ))
-    time_end = time.time()
-    time_consume = time_end-time_begin
-    print("time_consume")
-    print(time_consume)
     logger.info(f'best_accuracy: {best_acc}')   
 
 if __name__ == '__main__':
