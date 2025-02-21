@@ -33,4 +33,14 @@ Please obtain the specific implementations of Heuristic-CALA and Meta-CALA from 
     <img src="GLT-RES.jpg" width= "900">
 </p>
 
-
+Citation
+--------
+If you find this study useful for your research, please cite our paper.
+```
+@article{zhouCALA,
+  title={Class and Attribute-Aware Logit Adjustment for Generalized Long-Tail Learning},
+  author={Zhou, Xiaoling and Wu, Ou and Yang, Nan},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2025},
+}
+```
